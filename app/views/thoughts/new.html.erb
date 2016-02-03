@@ -1,0 +1,9 @@
+
+<div class="box">
+<h1>Type in your shower thought...</h1>
+<%= simple_form_for @thought do |f| %>
+	<%= f.input :idea %>
+	<br />
+	<%= f.submit 'Create', class: 'btn btn-primary' %>
+	<% end %>
+</div>
