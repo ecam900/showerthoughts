@@ -7,6 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+		<header>
+		<div class="moar">
+			<%= link_to "Another!", root_path %>
+		</div>
+		<div class="links">
+			<%= link_to 'Add yours', '#' %>
+		</div>
+	</header>
+
+	<hr />
+	<br class="clear" />
 
 <%= yield %>
 
